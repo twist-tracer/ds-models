@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^4.3.0",
+    "@tensorflow/tfjs-node": "^4.3.0"
+  },
+  "scripts": {
+    "toxic": "node toxic.js",
+    "spam": "node spam.js"
+  }
+}
